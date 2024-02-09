@@ -55,6 +55,9 @@ users[1].email
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));      // yeh batata hai ki yeh specific property uske paas hai ya nahi.
 
 
+
+
+// DE-STRUCTURING OF OBJECTS.
 const course = {
     coursename: "js in hindi",
     price: "999",
@@ -63,11 +66,21 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+const {courseInstructor: instructor} = course           // isse hme baar baar . operator use krne ki need nhi hoti hai.
 
 // console.log(courseInstructor);
 console.log(instructor);
 
+
+
+
+
+
+
+
+
+
+// Simple OverView On API.
 // {
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
@@ -79,3 +92,10 @@ console.log(instructor);
     {},
     {}
 ]
+
+
+// Json formatter for read api in simple way. It is a website.
+
+/*
+api mai hum objects/ array dono mil skate hai
+*/
