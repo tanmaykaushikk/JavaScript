@@ -46,7 +46,7 @@ if (true) {
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
 
-console.log(addone(5))
+console.log(addone(5))            // yha prr nhi aayega error kyuki yha prr normal function likha h
 
 function addone(num){
     return num + 1
@@ -54,7 +54,7 @@ function addone(num){
 
 
 
-addTwo(5)
+addTwo(5)                                     // yha prr error aayega kyuki yeh ek expression h yeh hota h hoisting ka concept 
 const addTwo = function(num){
     return num + 2
 }
