@@ -38,8 +38,8 @@ function loginUserMessage(username = "sam"){                   // agar koi naam 
 // console.log(loginUserMessage("hitesh"))
 
 
-function calculateCartPrice(val1, val2, ...num1){
-    return num1
+function calculateCartPrice(val1, val2, ...num1){            // here ... is a rest operator // ... is a spread/rest operator but works differently at different places.
+    return num1                                              // rest operator converts the arguments into an array.
 }
 
 // console.log(calculateCartPrice(200, 400, 500, 2000))
